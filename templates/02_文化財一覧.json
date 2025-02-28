@@ -1,0 +1,30 @@
+{
+  "columns": [
+    {
+      "name": "ID",
+      "type": "integer",
+      "description": "一意の識別子",
+      "required": true
+    },
+    {
+      "name": "名前",
+      "type": "string",
+      "description": "顧客の名前",
+      "maxLength": 100
+    },
+    {
+      "name": "メールアドレス",
+      "type": "string",
+      "format": "email"
+    },
+    {
+      "name": "生年月日",
+      "type": "string",
+      "format": "date"
+    },
+    {
+      "name": "緯度",
+      "type": "integer"
+    }
+  ]
+}
