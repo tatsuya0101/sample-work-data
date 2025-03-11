@@ -15,7 +15,7 @@
 ### [2] TypeB 
 - 対象: スプレッドシート+Googleフォームを活用してデータ収集を実施したい方
 - 下記リンクをクリックし、使用したいシートをコピーしてお使いください。
-- Googleフォームを自動生成する機能にGASスクリプトを利用します。「gas_scripts/XXXXX」フォルダにあるGASスクリプトもコピーをしてスプレッドシートに貼り付けてください。
+- Googleフォームを自動生成する機能にGASスクリプトを利用します。「gas_scripts」フォルダにある「CreateGoogleFormFromSS.gs」GASスクリプトもコピーをしてスプレッドシートに貼り付けてください。
 - [<TypeB>データ収集テンプレート](https://docs.google.com/spreadsheets/d/1U0nsRC8p9KJnjIwowYBf8E_qyk3APKlJ2zBBxujK5YE/edit?usp=sharing)
 
 #### データ収集手順
