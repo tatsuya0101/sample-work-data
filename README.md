@@ -30,3 +30,7 @@
 
 - ファイル構成
   - CheckFlow.gs >> ShowDirector.html >> CheckFlow.gs(saveSelectedValue()) >> ShowTask.html >>　CheckFlow.gs(processSelectedData()) >> ShowFacility.html >> CheckFlow.gs(decision_facility) >> complete.html
+ 
+## 事業所承認機能
+- approval_by_facility.gs
+- ShowApproval.html
