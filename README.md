@@ -33,4 +33,11 @@
  
 ## 事業所承認機能
 - approval_by_facility.gs
+  - getItems() 
+  - approve()
+  - reject()   
 - ShowApproval.html
+
+## Googleフォーム作成機能
+
+
