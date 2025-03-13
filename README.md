@@ -1,27 +1,19 @@
 # データ収集テンプレート
-データを収集する際には、下記テンプレートをご活用ください。2種類のタイプがあり、ユースケースに沿ってご選択ください。
+データを収集する際には、下記テンプレートをご活用ください。
 
-### [1] TypeA 
-- 対象 : 手元にあるデータをスプレッドシートにデータ整備したい方
-- 下記をクリックし、使用したいシートをコピーしてお使いください。
-- [<TypeB>データ収集テンプレート](https://docs.google.com/spreadsheets/d/1rTLe6Ya76OMVyNPpDyjcvtKeqmWCXzRFbmNdThgNv4o/edit?gid=0#gid=0)
+## 利用開始までの流れ
 
-#### データ収集手順
+- 1. 下記リンクをクリックし、使用したいシートをコピーする。
+    - [データ収集テンプレート](https://docs.google.com/spreadsheets/d/1U0nsRC8p9KJnjIwowYBf8E_qyk3APKlJ2zBBxujK5YE/edit?usp=sharing)
 
-- 1. XXXX
-- 2. XXXX 
+- 2. コピーしたスプレッドシートに対してデータ入力して整備していく
+- 3. データをGoogleフォームを活用して収集したい場合は、下記の「Googleフォームによるデータ収集方法」をご参照ください。
 
+## Googleフォームによるデータ収集方法
 
-### [2] TypeB 
-- 対象: スプレッドシート+Googleフォームを活用してデータ収集を実施したい方
-- 下記リンクをクリックし、使用したいシートをコピーしてお使いください。
-- Googleフォームを自動生成する機能にGASスクリプトを利用します。「gas_scripts」フォルダにある「CreateGoogleFormFromSS.gs」GASスクリプトもコピーをしてスプレッドシートに貼り付けてください。
-- [<TypeB>データ収集テンプレート](https://docs.google.com/spreadsheets/d/1U0nsRC8p9KJnjIwowYBf8E_qyk3APKlJ2zBBxujK5YE/edit?usp=sharing)
-
-#### データ収集手順
-
-- 1. XXXX
-- 2. XXXX 
+- このリポジトリにある「utils/gas-script」フォルダ配下にある「XXXX.gs」をご自身のスプレッドシートの 拡張機能 > Apps Script にあるスクリプトにコピーする
+- 保存が完了したら、スプレッドシートをリロードし、「DW機能」> 「Googleフォーム作成」をクリック
+- 新規のシートが作成され、そこに収集用のGoogleフォームのリンクがあるので共有してお使いください
 
 
 ---
