@@ -2,12 +2,11 @@
 データを収集する際には、下記テンプレートをご活用ください。
 
 ## 利用開始までの流れ
+1. 下記リンクをクリックし、使用したいシートをコピーする。
+- [データ収集テンプレート](https://docs.google.com/spreadsheets/d/1U0nsRC8p9KJnjIwowYBf8E_qyk3APKlJ2zBBxujK5YE/edit?usp=sharing)
 
-- 1. 下記リンクをクリックし、使用したいシートをコピーする。
-    - [データ収集テンプレート](https://docs.google.com/spreadsheets/d/1U0nsRC8p9KJnjIwowYBf8E_qyk3APKlJ2zBBxujK5YE/edit?usp=sharing)
-
-- 2. コピーしたスプレッドシートに対してデータ入力して整備していく
-- 3. データをGoogleフォームを活用して収集したい場合は、下記の「Googleフォームによるデータ収集方法」をご参照ください。
+2. コピーしたスプレッドシートに対してデータ入力して整備していく
+3. データをGoogleフォームを活用して収集したい場合は、下記の「Googleフォームによるデータ収集方法」をご参照ください。
 
 ## Googleフォームによるデータ収集方法
 
