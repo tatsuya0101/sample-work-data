@@ -1,8 +1,23 @@
 function onOpen() {
   var ui = SpreadsheetApp.getUi();
   ui.createMenu('DW機能')
-      .addItem('Googleフォーム作成', 'CreateGoogleForm')
+      .addItem('Googleフォーム作成', 'confirmCreateGoogleForm') // 関数名を変更
       .addToUi();
+}
+
+function confirmCreateGoogleForm() {
+  var ui = SpreadsheetApp.getUi();
+
+  // 確認ダイアログを表示
+  var response = ui.alert(
+      'Googleフォームを作成しますか？',
+      '実行すると、現在のシートに基づいてGoogleフォームが作成されます。',
+      ui.ButtonSet.OK_CANCEL);
+
+  // OK ボタンが押された場合のみ処理を実行
+  if (response == ui.Button.OK) {
+    CreateGoogleForm();
+  }
 }
 
 function CreateGoogleForm() {
@@ -55,7 +70,7 @@ function CreateGoogleForm() {
 
   urlSheet.getRange(1, 2).setValue(formUrl); // A1セルに公開URL
   urlSheet.getRange(2, 2).setValue(editUrl); // A2セルに編集URL
-  urlSheet.getRange(3, 2).setValue(formResponsesUrl); 
+  urlSheet.getRange(3, 2).setValue(formResponsesUrl);
 
   Browser.msgBox("Googleフォームを作成し、URLを「フォームURL」シートに書き込みました。");
 }
