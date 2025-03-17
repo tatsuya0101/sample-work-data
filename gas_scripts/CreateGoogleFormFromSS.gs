@@ -13,7 +13,7 @@ function CreateGoogleForm() {
   Logger.log('last column = '+ lastColumn)
 
   // カラムの取得
-  for (var i = 1; i <= lastRow; i++) {
+  for (var i = 1; i <= lastColumn; i++) {
     var question = sheet.getRange(1, i).getValue();
     var dataType = sheet.getRange(2, i).getValue();
     var required = sheet.getRange(3, i).getValue();
