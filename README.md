@@ -8,7 +8,6 @@
 1. [[データ収集テンプレート]](https://docs.google.com/spreadsheets/d/1U0nsRC8p9KJnjIwowYBf8E_qyk3APKlJ2zBBxujK5YE/edit?usp=sharing)をクリックし、データ収集するカテゴリシートのコピーを実施
 2. コピーしたスプレッドシートに対してデータを入力し整備
 3. (Option)データをGoogleフォームを活用して収集したい場合は、「※Googleフォームによるデータ収集方法」を参照
-4. データ収集が完了したら、
 
 #### ※Googleフォームによるデータ収集方法
 
